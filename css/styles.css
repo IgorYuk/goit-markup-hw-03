@@ -25,6 +25,7 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 *,
@@ -253,15 +254,12 @@ body {
 }
 
 .fourth-images-title {
-  padding-top: 32px;
-  padding-bottom: 8px;
   text-align: center;
 }
 
 .fourth-section-description {
-  /* margin-top: 8px; */
   text-align: center;
-  padding-bottom: 32px;
+  margin-top: 8px;
 }
 
 .fourth-section-item {
@@ -269,32 +267,36 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
+.card-content-team {
+  padding: 32px 16px;
+}
+
 /* ================== MAIN / =================== */
 
-/* ================== PORTFOLIO  =================== */
-
+/* ================== PORTFOLIO =================== */
 .menu-portfolio-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .portfolio-project-item {
   background: #ffffff;
   border: 1px solid #e7e9fc;
 }
-
 .images-title {
   text-align: left;
-  margin-top: 32px;
-  margin-left: 16px;
-  margin-bottom: 8px;
 }
 .portfolio-project-descr {
-  margin-bottom: 32px;
-  margin-left: 16px;
+  margin-top: 8px;
   color: var(--description-color);
 }
+
+.card-content {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+}
+
 .menu-portfolio-btn {
   font-family: inherit;
   font-size: 16px;
@@ -320,7 +322,6 @@ body {
   row-gap: 48px;
   justify-content: space-between;
 }
-
 .menu-portfolio-btn:hover,
 .menu-portfolio-btn:focus {
   color: var(--second-title-color);
@@ -329,9 +330,7 @@ body {
 .menu-portfolio-btn:hover,
 .menu-portfolio-btn:focus {
   border-color: var(--accent-color);
-}
-
-/* ================== PORTFOLIO / =================== */
+} /* ================== PORTFOLIO / =================== */
 
 /* ================== FOOTER =================== */
 .footer {
