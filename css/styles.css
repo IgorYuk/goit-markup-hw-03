@@ -17,13 +17,6 @@ p {
   margin-bottom: 0;
 }
 
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
 img {
   display: block;
   max-width: 100%;
@@ -270,22 +263,13 @@ body {
 
 /* CARD SET */
 .fourth-section-list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-
   display: flex;
-  margin-left: calc(-1 * --card-set-gap);
-  margin-top: calc(-1 * --card-set-gap);
+  gap: 24px;
 }
 
 .fourth-section-list > .fourth-section-item {
   background: #ffffff;
   border-radius: 4px;
-}
-
-.fourth-section-list {
-  gap: 24px;
 }
 
 /* CARD */
